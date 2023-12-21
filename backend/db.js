@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
 // const mongoUrl = "mongodb://127.0.0.1/inotebook";
-const mongoUrl = "mongodb+srv://hardikagrl22:tEkoxOS8rnFGGmcJ@cluster0.ssdezgz.mongodb.net/inotebook";
+// const mongoUrl = "mongodb+srv://hardikagrl22:tEkoxOS8rnFGGmcJ@cluster0.ssdezgz.mongodb.net/inotebook";
+const mongoUrl = "mongodb+srv://hardik22:76252263@notebook.6gyppvb.mongodb.net/";
 
 // mongoose.connect('mongodb://127.0.0.1/test')
 
