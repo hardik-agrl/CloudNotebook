@@ -5,7 +5,7 @@ const cors = require('cors')
 // require("dotenv").config();
 
 const corsOptions = {
-  origin: "http://localhost:3000" // frontend URI (ReactJS)
+  origin: "https://cloud-notebook-vn7o.onrender.com" // frontend URI (ReactJS)
 }
 
 connectToMongo();
