@@ -2,6 +2,12 @@ const connectToMongo = require('./db')
 const express = require('express')
 const cors = require('cors')
 
+require("dotenv").config();
+
+const corsOptions = {
+  origin: "http://localhost:3000" // frontend URI (ReactJS)
+}
+
 connectToMongo();
 // const app = express()
 const port = process.env.Port || 5000
@@ -13,7 +19,7 @@ var app = express()
 // app.use(bodyParser.urlencoded({ extended: false }));
 
 
-app.use(cors())
+app.use(cors(corsOptions));
 app.use(express.json());
 
 app.use('/api/auth', require('./routes/auth'));
