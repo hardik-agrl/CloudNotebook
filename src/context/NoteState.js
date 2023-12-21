@@ -4,7 +4,8 @@ import NoteContext from "./notes/NoteContext";
 
 
 const NoteState = (props) => {
-  const host = "http://localhost:5000" 
+  // const host = "http://localhost:5000" 
+  const host = "https://cloudnotebook-backend-0aqn.onrender.com" 
   const notesInitial = []
   const [notes, setNotes] = useState(notesInitial)
 
