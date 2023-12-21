@@ -19,7 +19,7 @@ const Signup = (props) => {
     } else {
       const response = await fetch(
         // "http://localhost:5000/api/auth/createuser",
-        "https://cloud-notebook-vn7o.onrender.com/api/auth/createuser",
+        "https://cloudnotebook-backend-0aqn.onrender.com/api/auth/createuser",
         {
           method: "POST",
           headers: {
