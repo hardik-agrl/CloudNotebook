@@ -2,7 +2,7 @@ const connectToMongo = require('./db')
 const express = require('express')
 const cors = require('cors')
 
-require("dotenv").config();
+// require("dotenv").config();
 
 const corsOptions = {
   origin: "http://localhost:3000" // frontend URI (ReactJS)
