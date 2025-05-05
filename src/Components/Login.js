@@ -42,6 +42,8 @@ const Login = (props) => {
         <div className='container'>
 
             <h2 className='text-center'> Login </h2>
+            <b><p>email: test@gmail.com</p> 
+            <p>password: test@12345</p></b>
             <form  onSubmit={handleSubmit}>
                 <div className="mb-3">
                     <label htmlFor="email" className="form-label">Email address</label>
