@@ -1,7 +1,7 @@
 # CloudNotebook 
 CloudNotebook is a secure, cloud-based note-taking application that allows users to create, edit, and manage their personal notes from anywhere. Built with a modern tech stack, it ensures a seamless and responsive user experience.
 
-Live Demo: cloud-notebook-ashy.vercel.app
+Live Demo: [cloud-notebook-ashy.vercel.app](cloud-notebook-ashy.vercel.app)
 
 ## Features
 User Authentication: Secure login and registration system to protect your notes.
